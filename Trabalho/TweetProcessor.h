@@ -1,0 +1,31 @@
+#pragma once
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "stack.h"
+
+typedef struct s_Hashtag {
+	int mentions;
+	char hashtag[100];
+} Hashtag;
+
+typedef struct s_User {
+	int tweets;
+	int mentions;
+	char name[100];
+} User;
+
+typedef struct s_Tweet {
+	void* user;
+	char text[240];
+	int retweets;
+	int likes;
+	Stack* hashtags;
+	Stack* mentions;
+} Tweet;
+
+Stack* readAllTweets(FILE* input);
+int readTweet(FILE* input, Tweet* tweet);
+void printAll(Stack* tweets);
