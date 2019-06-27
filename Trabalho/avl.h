@@ -31,3 +31,5 @@ AVLNode* AVLRotateLeftRight(AVLNode* tree);
 AVLNode* AVLRotateRightLeft(AVLNode* tree);
 
 AVLNode* AVLFind(AVLNode* tree, void* data, int (*compareFuntion)(void*, void*));
+
+AVLNode* AVLNNodeCenteredRight(AVLNode* tree, int n, int* actual);

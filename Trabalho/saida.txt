@@ -1,0 +1,25 @@
+--- OP A
+#UFRGS85anos,3
+#UFRGSPortasAbertas,3
+#QueroUFRGS,2
+#GameOfThrones,1
+#GOT,1
+--- OP B
+@ufrgsnoticias,2
+@MrsPaulocarlos1,2
+@Pablo_F76,1
+--- OP C
+Best one I've seen so far #GOT  #GameOfThrones,9
+#QueroUFRGS Relações Internacionais @ufrgsnoticias,3
+--- OP D
+@ufrgsnoticias,1
+--- OP E
+@MrsPaulocarlos1,17
+@ufrgsnoticias,12
+@Pablo_F76,9
+--- OP F
+@ufrgsnoticias,49
+@Pablo_F76,41
+--- OP G
+#QueroUFRGS,1
+#UFRGS85anos,3

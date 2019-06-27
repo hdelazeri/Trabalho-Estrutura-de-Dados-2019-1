@@ -1,0 +1,308 @@
+--- OP A
+#copaamerica,28
+#python,20
+#datascience,18
+#100daysofcode,10
+#machinelearning,8
+#programming,5
+#scala,4
+#fifawwc,4
+#braxper,3
+#artificialintelligence,3
+#ai,3
+#python.,2
+#healthcare,2
+#fra,2
+#brazil,2
+#bra,2
+#freecodecamp,1
+#100daysofcode",1
+#html5,1
+#argxcol,1
+#braxbol,1
+#scala?,1
+#programming.,1
+#fractal.,1
+#mysql,1
+#pytest,1
+#pandastricks,1
+#javascript,1
+#mandala,1
+#flask,1
+#art,1
+#mit,1
+#ui,1
+#dynamobim,1
+#python!,1
+#languageprocessing,1
+#nlp,1
+#rprogramming,1
+#sql,1
+#odsc,1
+#reinforcementlearning,1
+#graph,1
+#research,1
+#dataanalytics,1
+#iot,1
+#china,1
+#math,1
+#google,1
+#bigdata,1
+#neuralnetworks,1
+#tensorflow,1
+#guerreirasdobrasil,1
+#liverpoolfc,1
+#braxperu,1
+#mancity,1
+#alomae,1
+#pracima,1
+#can,1
+#usa,1
+#esp,1
+#jogabola,1
+#willian,1
+#peru,1
+#perbra,1
+#selecaobrasileira,1
+#copaamerica.,1
+#suarezthings,1
+#arg,1
+#messi,1
+#CopaAmerica,1
+--- OP A
+#copaamerica,28
+#python,20
+#datascience,18
+#100daysofcode,10
+#machinelearning,8
+--- OP B
+@odsc,8
+@brasileiraoen,7
+@mancity,6
+@python_online,5
+@brfootball,4
+@scalacourses,3
+@pythondevelop,2
+@gcellopi,2
+@bigdatasoluti0n,2
+@sictrs,2
+@bbcsport,2
+@copaamerica,2
+@footie_matters,2
+@eguldev,1
+@pravindia1996,1
+@leoxanigm,1
+@therohitdas,1
+@thisisdebjyoti,1
+@iambolajiayo,1
+@namvdo,1
+@siim,1
+@impedimento,1
+@rvtond,1
+@puffnfresh,1
+@kaszgg,1
+@pythoncodequs,1
+@pjpeter1990,1
+@justmarkham,1
+@m34898085,1
+@stanisl94617637,1
+@driscollis,1
+@lena_cordeliart,1
+@franciscoding,1
+@carlymaps,1
+@thomas__mahon,1
+@wtmwarri,1
+@mydatamodels,1
+@laurengranada,1
+@johnlatwc,1
+@thurutweets,1
+@nicksheltrown,1
+@cromarblake,1
+@aliirz,1
+@pratikbandal5,1
+@mikequindazzi,1
+@thomas_harrer,1
+@sonirw,1
+@ieeespectrum,1
+@ploscompbiol,1
+@nvidiadrive,1
+@brahmacerveja,1
+@aphiwatnumpu,1
+@gabrieljesus33,1
+@lovegoa33730438,1
+@forfootball,1
+@abid200117,1
+@whoscored,1
+@marciarod13,1
+@goal,1
+@ctrattackgame,1
+@thesportalk,1
+@ronaldinhog10,1
+@bgt_eng,1
+@fcbarcelonafl,1
+@barcaworldwide,1
+@sksakline730,1
+--- OP B
+@odsc,8
+@brasileiraoen,7
+@mancity,6
+@python_online,5
+@brfootball,4
+--- OP C
+new number, who dis? 9 #mancity,822
+more brazil top their group and qualify for the #copaamerica quarter-finals!,807
+marta?s message for the next generation  #fifawwc,727
+excelente jogo rapaziada, foco no proximo! #pracima #alomae #copaamerica,650
+this malicious #python script downloads a cross-compiler for 14 different cpu architectures to compile its backdoor!,294
+google has created a maths ai that has already proved 1200 theorems. @welcomeai #google #math #datascience #machinelearning,263
+do you know you can manually create meter ranges and progress bars in html5 with the <meter> and <progress> form element? #100daysofcode #html5,215
+#fra are still alive at the #fifawwc,214
+the goverment of #china now leveraging social scores to reward and punish citizens #iot #datascience #dataanalytics,202
+golaco! martinez makes it colombia 1 x 0 argentina. what a move. what a goal! #copaamerica #argxcol,143
+gol! everton cebolinha with the 3rd goal. fantastic strike to make it brazil 3-0 bolivia. #copaamerica #braxbol,106
+an @aguerosergiokun goal helped @argentina to a 2-0 victory over qatar in the copa america. @notamendi30 also played in the win,91
+90 minutes for @gabrieljesus33 as put five past in tonight's #copaamerica clash. although the city man saw his late penalty saved, brazil sit top of group a.,69
+90 minutes for @gabrieljesus33 as put five past in tonight's #copaamerica clash. although the city man saw his late penalty saved, brazil sit top of group a.,69
+are your dataset rows spread across multiple files, but you need a single dataframe? #python #datascience #pandastricks,60
+follow follow @barcaworldwide more the man of the match award, an early birthday gift #copaamerica #messi #arg,59
+bringing self-driving to a whole new dimension ? see how deep neural networks can predict 3d distances from 2d images,50
+a look at 5 top brazilian prospects who could have big futures,45
+medias de valores nos 3 jogos da copa america: #copaamerica,39
+google open-sources soccer reinforcement learning simulator. #datascience #reinforcementlearning #machinelearning,38
+golaco! willian with a beautiful goal from the left. 5x0 #braxperu #copaamerica,35
+no woman no cry! #guerreirasdobrasil,34
+visualized image for linux commands and tools. #100daysofcode ,33
+everton: despite playing just 117 minutes of brazil's #copaamerica campaign, no player at the tournament has completed more dribbles than everton (10),32
+gol! it's the captain. dani alves finishes of a slick move with a powerful finish and goal. 4-0 #braxper #copaamerica,32
+gol! it's the captain. dani alves finishes of a slick move with a powerful finish and goal. 4-0 #braxper #copaamerica,32
+who's ready for the #fifawwc knockout stages? ,31
+commiserations to #can and janine beckie, who saw a penalty saved, as their #fifawwc campaign comes to an end.,28
+gooooooooool brasil! willian via: our main account @goalstv3 #jogabola #braxper #copaamerica,25
+i've worked with #scala for 8 years. currently working with the largest scala code base i've worked on,25
+we have not seen the best of the american side yet. with brave #esp beaten, it's all eyes on a #fra epic for #usa and @hopesolo,24
+is the #copaamerica missing neymar? his psg team-mates are anyway! ,17
+"i had my first web developer interview today. it's for an internship with 1/3 of the average salary here... and a glimmer of hope. thank you @ossia ""this part of my life... is called running"" #100daysofcode",14
+understanding the data science lifecycle #datascience  #machinelearning #bigdata,13
+phd candidates often work on some fascinating data science projects. here are 10 standout machine learning dissertations that may interest you. #datascience #machinelearning,12
+find more statistics of this match in the #copaamerica official app,11
+argentina had beat qatar (yes, you read that right) to avoid going out of the #copaamerica. they'll be breathing a sigh of relief today after another underwhelming performance here's the report,11
+day 5 of my #100daysofcode practiced recursion because it always felt overwhelming.,11
+new research from muscinelli et al. how single neuron properties shape chaotic dynamics and signal transmission in random neural networks,10
+sql has been around for a while - and for good reason - as it?s a tool that all data scientists should be familiar with. here?s how to get started with it. #datascience #odsc #sql,10
+follow follow @fcbarcelonafl more messi with the @brahmacerveja 'man of the match' award #copaamerica,9
+ibm?s ai can predict which patients are likely to develop malignant breast cancer within a year. #datascience #ai #artificialintelligence #healthcare,9
+#100daysofcode finished a responsive web design project on freecodecamp and worked on the sql database for the flask web app i'm working on. ,9
+gabriel jesus has now gone 621 days without a competitive goal for brazil since scoring against chile in a world cup qualifier in 2017. #copaamerica #bra,8
+really good #dynamobim #python #ui,8
+suarez asking for a hand ball off a keeper only he can do this lmao #copaamerica #suarezthings,7
+optical computing has never really gained traction, but maybe neural networks will finally provide the killer app for it,7
+has the python gil been slain? #python #programming,7
+at last completed and got my #freecodecamp certificate on rwd #100daysofcode @freecodecamp,7
+it was disappointment for england u21s on monday... they conceded a late goal to finish off their european under-21 championship campaign with a 3-3 draw against croatia,6
+a beginners guide for building neural networks in tensorflow #tensorflow #neuralnetworks ,6
+day 3: learnt flexbox today. also,  i've decided that i'll try something different each day of this 100 days challenge #100daysofcode,6
+day 22 #100daysofcode yay!!! @freecodecamp,6
+more meeting expectations is part of the job #bra #copaamerica,5
+willian wonder goal for brazil against peru.#perbra #peru #brazil #copaamerica #willian,5
+powerpoint gains an ai-powered presenter coach and beefed-up design suggestions. #datascience #ai #artificialintelligence,5
+here is the listing of the most populars coding language over the years. go for #python! via @stackoverflow #machinelearning,5
+day 5 #100daysofcode : still working on the #mit 6.00.1x course on #python. got familiar with algorithms and functions.,5
+#100daysofcode day 5 binary search using recursive calls #python using paper ,5
+wow! congrats #scala team and @heathercmiller on the pl software award at @pldi for their scala work!,5
+linear programming with python #python #programming,5
+only luis suarez would call for a handball inside the box because it hit the hand of the opposing goalkeeper!#CopaAmerica,3
+leo messi was chosen 'man of the match' of the match between argentina and qatar. come on leo! #copaamerica,3
+#copaamerica what a great moment for #selecaobrasileira fans!...brazil 5-0 peru ?scorer- casemiro, firmino, everton, dani alvez, willian time to rise again in quarter final,3
+lunch break #python workshop series part 3.,3
+in #python is the name of args and kwargs preferred or do you name them something more descriptive?,3
+"check out the ""new for #scala 2.12"" section in the transcript of ""functions are first class"" lecture ",3
+how to build a url crawler to map a website using python #python #programming,3
+goal! it's been given!nakajimas goal stands and japan have the lead. ecuador have it all to do now . .. #copaamerica,2
+i've been having a bit of fun making kits for #copaamerica here's group a: brazil, bolivia, peru, venezuela,2
+conhecemos hoje tambem a fabrica da santa clara, onde fomos recebidos pelo presidente rogerio bruno sauthier e sua equipe. o desenvolvimento economico do rs, a partir da inovacao na industria, tambem foi pauta do encontro.,2
+skills of data scientists and data engineers #datascience ,2
+visually grounded natural language navigation is going places. #datascience #nlp #languageprocessing,2
+my #python animation of all 1473 tornadoes that occurred in the us in 2017.,2
+sweet and easy:) #mandala #python #javascript,2
+machine learning - fun and easy using python and keras,2
+enjoy this #python generated #fractal. some nice esport statistics coming soon!,2
+how do parametric types work in #scala?,2
+python and javascript programming bundle #python #programming,2
+things to know about moral hacking in python #python #programming,2
+great chance for ecuador! velasco centres the ball into the box for enner valencia, but he can't guide it into the goal from close range and kawashima saves. it looked easier to score #copaamerica,1
+watch this intelligent player no look goal firmino #copaamerica #liverpoolfc #brazil,1
+estamos na @assembleiars participando de uma audiencia publica sobre sistemas de inovacao. os projetos e planos da sict sao apresentados agora pelo secret?rio @luislamb.,1
+you must!#datascience #machinelearning,1
+in #research land today.  #python #datascience #graph,1
+really? What do you think? #datascience #machinelearning,1
+would this make a better tattoo or back of a business card? asking for a friend. #datascience,1
+azurevm update: flexible and powerful deployment and management of vms in azure. #datascience #rprogramming,1
+let?s discuss why universal latent space is vital to the drug discovery process and ways that this could revolutionize how we make breakthroughs in healing. #datascience #ai #artificialintelligence #healthcare,1
+studying #python because, why not?,1
+photo filters from coding camp #art #python,1
+day 04. learned using databases with flasksqlalchemy. #100daysofcode #python #flask,1
+using python and mysql in the etl process,1
+enjoyed delivering a talk on #pytest #python ,1
+love me some #mysql server stats while updating using #python. some nice esport statistics coming soon!,1
+automated software testing with python #python #programming. some nice esport statistics coming soon! ,1
+want to learn #scala properly, while making the best use of your time and money? we provide support ,1
+after some postive friendly performances, i was hopeful we would see a progressive passing argentina side in brazil. from the evidence so far, we will not. #copaamerica,1
+lancelot back at it bringing luck to uruguay #copaamerica,0
+deep learning: advanced computer vision #machinelearning #datascience,0
+--- OP C
+new number, who dis? 9 #mancity,822
+more brazil top their group and qualify for the #copaamerica quarter-finals!,807
+marta?s message for the next generation  #fifawwc,727
+--- OP D
+@freecodecamp,2
+@gabrieljesus33,2
+@ossia,1
+@pldi,1
+@heathercmiller,1
+@stackoverflow,1
+@welcomeai,1
+@luislamb.,1
+@assembleiars,1
+@notamendi30,1
+@argentina,1
+@aguerosergiokun,1
+@hopesolo,1
+@goalstv3,1
+@brahmacerveja,1
+@fcbarcelonafl,1
+@barcaworldwide,1
+--- OP D
+@freecodecamp,2
+@gabrieljesus33,2
+--- OP E
+@brfootball,12415
+@mancity,6016
+@brasileiraoen,1699
+--- OP F
+@brfootball,2014
+@mancity,1555
+@johnlatwc,981
+@iambolajiayo,829
+--- OP G
+--- OP G
+--- OP G
+#bigdata,1
+#google,1
+#math,1
+#china,1
+#iot,1
+#dataanalytics,1
+#research,1
+#graph,1
+#reinforcementlearning,1
+#odsc,1
+#sql,1
+#machinelearning,7
+#rprogramming,1
+#nlp,1
+#languageprocessing,1
+#ai,3
+#artificialintelligence,3
+#healthcare,2
+#python,2
+#pandastricks,1

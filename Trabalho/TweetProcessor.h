@@ -9,11 +9,19 @@
 typedef struct s_Hashtag {
 	int mentions;
 	char hashtag[100];
+	Stack* associated;
 } Hashtag;
+
+typedef struct s_HashtagAssociated {
+	char hashtag[100];
+	int count;
+} AssociatedHashtag;
 
 typedef struct s_User {
 	int tweets;
 	int mentions;
+	int retweets;
+	int engagement;
 	char name[100];
 } User;
 

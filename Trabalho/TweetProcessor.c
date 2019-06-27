@@ -49,10 +49,18 @@ int readTweet(FILE* input, Tweet* tweet)
 		while (palavra != NULL) {
 			Hashtag* hashtag = malloc(sizeof(Hashtag));
 			hashtag->mentions = 1;
+			hashtag->associated = StackInitialize();
+
 			for (int i = 0; i < 99 && *palavra != ' ' && *palavra != '\0'; i++, palavra++) {
 				hashtag->hashtag[i] = *palavra;
 				hashtag->hashtag[i + 1] = '\0';
 			}
+
+			char buffer[100] = "#";
+
+			strcat(buffer, hashtag->hashtag);
+
+			strcpy(hashtag->hashtag, buffer);
 
 			tweet->hashtags = StackPush(tweet->hashtags, hashtag);
 			palavra = strtok(NULL, "#");
@@ -75,6 +83,12 @@ int readTweet(FILE* input, Tweet* tweet)
 				user->name[i] = *palavra;
 				user->name[i + 1] = '\0';
 			}
+
+			char buffer[100] = "@";
+
+			strcat(buffer, user->name);
+
+			strcpy(user->name, buffer);
 
 			tweet->mentions = StackPush(tweet->mentions, user);
 			palavra = strtok(NULL, "@");

@@ -34,3 +34,31 @@ int comapareTweetsRetweets(void* a, void* b) {
 
 	return tweet1.retweets - tweet2.retweets;
 }
+
+int comapareUsersTweets(void* a, void* b) {
+	User user1 = *((User*)a);
+	User user2 = *((User*)b);
+
+	return user1.tweets - user2.tweets;
+}
+
+int comapareUsersRetweets(void* a, void* b) {
+	User user1 = *((User*)a);
+	User user2 = *((User*)b);
+
+	return user1.retweets - user2.retweets;
+}
+
+int comapareUsersEngagement(void* a, void* b) {
+	User user1 = *((User*)a);
+	User user2 = *((User*)b);
+
+	return user1.engagement - user2.engagement;
+}
+
+int comapareHashtagAssociated(void* a, void* b) {
+	AssociatedHashtag  associated = *((AssociatedHashtag*)a);
+	Hashtag hashtag = *((Hashtag*)b);
+
+	return strcmp(associated.hashtag, hashtag.hashtag);
+}

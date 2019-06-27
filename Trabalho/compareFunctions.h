@@ -13,3 +13,11 @@ int comapareUsersName(void* a, void* b);
 int comapareTweetsRetweets(void* a, void* b);
 
 int comapareUsersMentions(void* a, void* b);
+
+int comapareUsersTweets(void* a, void* b);
+
+int comapareUsersRetweets(void* a, void* b);
+
+int comapareUsersEngagement(void* a, void* b);
+
+int comapareHashtagAssociated(void* a, void* b);

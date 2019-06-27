@@ -44,6 +44,15 @@
     <Text Include="entrada.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="entrada2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="operacoes2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="saida2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TweetProcessor.h">

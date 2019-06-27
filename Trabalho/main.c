@@ -1,34 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
+#include <time.h>
 
 #include "TweetProcessor.h"
 #include "operations.h"
 #include "avl.h"
-
-void printHashtag(void* a) {
-	Hashtag hashtag = *((Hashtag*)a);
-
-	printf("%s - %d\n", hashtag.hashtag, hashtag.mentions);
-}
-
-void printUser(void* a) {
-	User user = *((User*)a);
-
-	printf("%s - %d\n", user.name, user.tweets);
-}
-
-void printRetweets(void* a) {
-	Tweet tweet = *((Tweet*)a);
-
-	printf("%s - %d\n", tweet.text, tweet.retweets);
-}
-
-void printMentions(void* a) {
-	User user = *((User*)a);
-
-	printf("%s - %d\n", user.name, user.mentions);
-}
 
 int main(int argc, char* argv[]) //argc conta o número de parâmetros e argv armazena as strings correspondentes aos parâmentros digitados
 {
@@ -67,32 +44,79 @@ int main(int argc, char* argv[]) //argc conta o número de parâmetros e argv arma
 					return 1;
 				}
 				else {
+					clock_t start, end;
+					char linha[100];
+
+					start = clock();
+
 					Stack* tweets = readAllTweets(input);
 
 					AVLNode* hashtagTree = AVLInitialize();
 					AVLNode* usersTree = AVLInitialize();
 					AVLNode* retweetsTree = AVLInitialize();
 					AVLNode* mentionsTree = AVLInitialize();
+					AVLNode* influencersTree = AVLInitialize();
+					AVLNode* engagementTree = AVLInitialize();
+					Stack* associatedHashtags = StackInitialize();
 					
-					loadTweetsOnStructures(tweets, &hashtagTree, &usersTree, &retweetsTree, &mentionsTree);
+					loadTweetsOnStructures(tweets, &hashtagTree, &usersTree, &retweetsTree, &mentionsTree, &influencersTree, &engagementTree, &associatedHashtags);
 
-					printAll(tweets);
+					end = clock();
 
-					/*printf("\n\n\n\n\n\n");
+					double loadTime = ((double)(end - start)) / CLOCKS_PER_SEC;
 
-					CenteredRight(hashtagTree, printHashtag);
+					printf("Time to load data: %f\n\n", loadTime);
 
-					printf("\n\n\n\n\n\n");
+					start = clock();
 
-					CenteredRight(usersTree, printUser);
+					while (fgets(linha, 100, operations)) {
+						char* part;
 
-					printf("\n\n\n\n\n\n");
+						part = strtok(linha, ";");
 
-					CenteredRight(retweetsTree, printRetweets);
+						strlwr(part);
 
-					printf("\n\n\n\n\n\n");
+						switch (*part) {
+							case 'a':
+								part = strtok(NULL, ";");
+								operationA(output, hashtagTree, atoi(part));
+								break;
+							case 'b':
+								part = strtok(NULL, ";");
+								operationB(output, usersTree, atoi(part));
+								break;
+							case 'c':
+								part = strtok(NULL, ";");
+								operationC(output, retweetsTree, atoi(part));
+								break;
+							case 'd':
+								part = strtok(NULL, ";");
+								operationD(output, mentionsTree, atoi(part));
+								break;
+							case 'e':
+								part = strtok(NULL, ";");
+								operationE(output, influencersTree, atoi(part));
+								break;
+							case 'f':
+								part = strtok(NULL, ";");
+								operationF(output, engagementTree, atoi(part));
+								break;
+							case 'g':
+								part = strtok(NULL, ";");
 
-					CenteredRight(mentionsTree, printMentions);*/
+								Hashtag hashtag;
+								strcpy(hashtag.hashtag, part);
+
+								operationG(output, associatedHashtags, &hashtag);
+								break;
+						}
+					}
+
+					end = clock();
+
+					double fileTime = ((double)(end - start)) / CLOCKS_PER_SEC;
+
+					printf("Time to generate output file: %f\n\n", fileTime);
 				}
 			}
 		}

@@ -133,8 +133,11 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="entrada.txt" />
+    <Text Include="entrada2.txt" />
     <Text Include="operacoes.txt" />
+    <Text Include="operacoes2.txt" />
     <Text Include="saida.txt" />
+    <Text Include="saida2.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="avl.h" />

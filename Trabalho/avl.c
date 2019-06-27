@@ -192,3 +192,23 @@ AVLNode* AVLFind(AVLNode* tree, void* data, int (*compareFuntion)(void*, void*))
 		}
 	}
 }
+
+AVLNode* AVLNNodeCenteredRight(AVLNode* tree, int n, int* actual) {
+	AVLNode* node = NULL;
+
+	if (tree != NULL && *actual <= n) {
+		node = AVLNNodeCenteredRight(tree->right, n, actual);
+
+		if (node != NULL)
+			return node;
+
+		(*actual)++;
+
+		if (*actual == n)
+			return tree;
+
+		node = AVLNNodeCenteredRight(tree->left, n, actual);
+	}
+
+	return node;
+}

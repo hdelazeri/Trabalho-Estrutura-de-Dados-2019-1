@@ -15,3 +15,16 @@ Stack* StackPush(Stack* stack, void* data)
 
 	return node;
 }
+
+Stack* StackFind(Stack* stack, void* data, int(*compareFuntion)(void*, void*))
+{
+	Stack* aux;
+
+	if (stack) {
+		for (aux = stack; aux != NULL; aux = aux->top)
+			if ((*compareFuntion)(aux->data, data) == 0)
+				return aux;
+	}
+
+	return NULL;
+}
