@@ -35,15 +35,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="saida.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="operacoes.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="entrada.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
     <Text Include="entrada2.txt">
       <Filter>Resource Files</Filter>
     </Text>
@@ -51,6 +42,15 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="saida2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="entrada1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="operacoes1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="saida1.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

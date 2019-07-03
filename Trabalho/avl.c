@@ -28,7 +28,7 @@ AVLNode* AVLInsert(AVLNode* tree, void* data, int* ok, int (*compareFuntion)(voi
 	else {
 		if ((*compareFuntion)(data, tree->info) < 0) {
 			tree->left = AVLInsert(tree->left, data, ok ,(*compareFuntion));
-			/*if (*ok) {
+			if (*ok) {
 				switch (tree->balanceFactor) {
 				case -1:
 					tree->balanceFactor = 0;
@@ -41,11 +41,11 @@ AVLNode* AVLInsert(AVLNode* tree, void* data, int* ok, int (*compareFuntion)(voi
 					tree = AVLUnbalancedLeft(tree, ok);
 					break;
 				}
-			}*/
+			}
 		}
 		else {
 			tree->right = AVLInsert(tree->right, data, ok, (*compareFuntion));
-			/*if (*ok) {
+			if (*ok) {
 				switch (tree->balanceFactor) {
 				case 1:
 					tree->balanceFactor = 0;
@@ -58,7 +58,7 @@ AVLNode* AVLInsert(AVLNode* tree, void* data, int* ok, int (*compareFuntion)(voi
 					tree = AVLUnbalancedRight(tree, ok);
 					break;
 				}
-			}*/
+			}
 		}
 	}
 
@@ -131,6 +131,10 @@ AVLNode* AVLRotateLeftRight(AVLNode* tree) {
 	node1 = tree->left;
 	node2 = node1->right;
 
+	if (!node1 || !node2) {
+		return tree;
+	}
+
 	node1->right = node2->left;
 	node2->left = node1;
 	tree->left = node2->right;
@@ -191,6 +195,8 @@ AVLNode* AVLFind(AVLNode* tree, void* data, int (*compareFuntion)(void*, void*))
 				return AVLFind(tree->right, data, *compareFuntion);
 		}
 	}
+
+	return NULL;
 }
 
 AVLNode* AVLNNodeCenteredRight(AVLNode* tree, int n, int* actual) {
