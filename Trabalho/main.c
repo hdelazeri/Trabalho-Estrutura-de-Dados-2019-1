@@ -44,13 +44,17 @@ int main(int argc, char* argv[]) //argc conta o número de parâmetros e argv arma
 					return 1;
 				}
 				else {
+					// Variáveis auxiliares
 					clock_t start, end;
 					char linha[100];
 
+					// Começa a contabilizar o tempo de carregamento
 					start = clock();
 
+					// Le todos os tweets do arquivo
 					Stack* tweets = readAllTweets(input);
 
+					// Inicializa as estruturas de dados
 					AVLNode* hashtagTree = AVLInitialize();
 					AVLNode* usersTree = AVLInitialize();
 					AVLNode* retweetsTree = AVLInitialize();
@@ -59,16 +63,20 @@ int main(int argc, char* argv[]) //argc conta o número de parâmetros e argv arma
 					AVLNode* engagementTree = AVLInitialize();
 					Stack* associatedHashtags = StackInitialize();
 					
+					// Carrega os dados nas estruturas
 					loadTweetsOnStructures(tweets, &hashtagTree, &usersTree, &retweetsTree, &mentionsTree, &influencersTree, &engagementTree, &associatedHashtags);
 
+					// Para de contabilizar o tempo de carregamento
 					end = clock();
 
 					double loadTime = ((double)(end - start)) / CLOCKS_PER_SEC;
 
 					printf("Time to load data: %f\n\n", loadTime);
 
+					// Começa a contabilizar o tempo de geração do arquivo de saída
 					start = clock();
 
+					// Executa as operações contidas no arquivo de operações
 					while (fgets(linha, 100, operations)) {
 						char* part;
 
@@ -112,6 +120,7 @@ int main(int argc, char* argv[]) //argc conta o número de parâmetros e argv arma
 						}
 					}
 
+					// Para de contabilizar o tempo de geração do arquivo de saída
 					end = clock();
 
 					double fileTime = ((double)(end - start)) / CLOCKS_PER_SEC;

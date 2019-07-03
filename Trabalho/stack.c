@@ -1,10 +1,12 @@
 #include "stack.h"
 
+// Inicializa a pilha
 Stack* StackInitialize()
 {
 	return NULL;
 }
 
+// Adiciona um dado a pilha
 Stack* StackPush(Stack* stack, void* data)
 {
 	Stack* node = (Stack*)malloc(sizeof(Stack));
@@ -16,6 +18,7 @@ Stack* StackPush(Stack* stack, void* data)
 	return node;
 }
 
+// Procura um dado na pilha
 Stack* StackFind(Stack* stack, void* data, int(*compareFuntion)(void*, void*))
 {
 	Stack* aux;

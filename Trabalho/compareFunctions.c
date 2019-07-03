@@ -1,5 +1,6 @@
 #include "compareFunctions.h"
 
+// Função auxiliar que compara duas hashtags pelo seu texto
 int comapareHashtagsText(void* a, void* b) {
 	Hashtag hashtag1 = *((Hashtag*)a);
 	Hashtag hashtag2 = *((Hashtag*)b);
@@ -7,6 +8,7 @@ int comapareHashtagsText(void* a, void* b) {
 	return strcmp(hashtag1.hashtag, hashtag2.hashtag);
 }
 
+// Função auxiliar que compara duas hashtags pela quantidade de menções e em caso de igualdade alfabeticamente
 int comapareHashtagsMentions(void* a, void* b) {
 	Hashtag hashtag1 = *((Hashtag*)a);
 	Hashtag hashtag2 = *((Hashtag*)b);
@@ -27,6 +29,7 @@ int comapareHashtagsMentions(void* a, void* b) {
 	}
 }
 
+// Função auxiliar que compara dois usuários pelo seu nome
 int comapareUsersName(void* a, void* b) {
 	User user1 = *((User*)a);
 	User user2 = *((User*)b);
@@ -34,6 +37,7 @@ int comapareUsersName(void* a, void* b) {
 	return strcmp(user1.name, user2.name);
 }
 
+// Função auxiliar que compara dois usuários pela sua quantidade de menções e em caso de igualdade alfabeticamente
 int comapareUsersMentions(void* a, void* b) {
 	User user1 = *((User*)a);
 	User user2 = *((User*)b);
@@ -54,6 +58,7 @@ int comapareUsersMentions(void* a, void* b) {
 	}
 }
 
+// Função auxiliar que compara dois tweets pela sua quantidade de retweets e em caso de igualdade alfabeticamente
 int comapareTweetsRetweets(void* a, void* b) {
 	Tweet tweet1 = *((Tweet*)a);
 	Tweet tweet2 = *((Tweet*)b);
@@ -74,6 +79,7 @@ int comapareTweetsRetweets(void* a, void* b) {
 	}
 }
 
+// Função auxiliar que compara dois usuários pela sua quantidade de tweets e em caso de igualdade alfabeticamente
 int comapareUsersTweets(void* a, void* b) {
 	User user1 = *((User*)a);
 	User user2 = *((User*)b);
@@ -94,6 +100,7 @@ int comapareUsersTweets(void* a, void* b) {
 	}
 }
 
+// Função auxiliar que compara dois usuários pela sua quantidade de retweets e em caso de igualdade alfabeticamente
 int comapareUsersRetweets(void* a, void* b) {
 	User user1 = *((User*)a);
 	User user2 = *((User*)b);
@@ -114,6 +121,7 @@ int comapareUsersRetweets(void* a, void* b) {
 	}
 }
 
+// Função auxiliar que compara dois usuários pelo seu engajamento e em caso de igualdade alfabeticamente
 int comapareUsersEngagement(void* a, void* b) {
 	User user1 = *((User*)a);
 	User user2 = *((User*)b);
@@ -136,6 +144,7 @@ int comapareUsersEngagement(void* a, void* b) {
 	}
 }
 
+// Função auxiliar que compara duas hashtags pelo seu texto
 int comapareHashtagAssociated(void* a, void* b) {
 	AssociatedHashtag  associated = *((AssociatedHashtag*)a);
 	Hashtag hashtag = *((Hashtag*)b);

@@ -1,5 +1,6 @@
 #include "avl.h"
 
+// Imprime a AVL usando o caminhamento central a esquerda
 void CenteredRight(AVLNode* tree, void (*printFunction)(void*)) {
 	if (tree != NULL) {
 		CenteredRight(tree->right, *printFunction);
@@ -8,10 +9,12 @@ void CenteredRight(AVLNode* tree, void (*printFunction)(void*)) {
 	}
 }
 
+// Inicializa a AVL
 AVLNode* AVLInitialize() {
 	return NULL;
 }
 
+// Insere um novo nodo na AVL
 AVLNode* AVLInsert(AVLNode* tree, void* data, int* ok, int (*compareFuntion)(void*, void*)) {
 	if (tree == NULL) {
 		tree = (AVLNode*)malloc(sizeof(AVLNode));
@@ -65,6 +68,7 @@ AVLNode* AVLInsert(AVLNode* tree, void* data, int* ok, int (*compareFuntion)(voi
 	return tree;
 }
 
+// Função para rotações
 AVLNode* AVLUnbalancedLeft(AVLNode* tree, int* ok) {
 	AVLNode* node;
 
@@ -81,6 +85,7 @@ AVLNode* AVLUnbalancedLeft(AVLNode* tree, int* ok) {
 	return tree;
 }
 
+// Função para rotações
 AVLNode* AVLUnbalancedRight(AVLNode* tree, int* ok) {
 	AVLNode* node;
 
@@ -97,6 +102,7 @@ AVLNode* AVLUnbalancedRight(AVLNode* tree, int* ok) {
 	return tree;
 }
 
+// Rotação a diretira
 AVLNode* AVLRotateRight(AVLNode* tree) {
 	AVLNode* node;
 
@@ -111,6 +117,7 @@ AVLNode* AVLRotateRight(AVLNode* tree) {
 	return tree;
 }
 
+// Rotação a esquerda
 AVLNode* AVLRotateLeft(AVLNode* tree) {
 	AVLNode* node;
 
@@ -125,6 +132,7 @@ AVLNode* AVLRotateLeft(AVLNode* tree) {
 	return tree;
 }
 
+// Rotação dupla a diretira
 AVLNode* AVLRotateLeftRight(AVLNode* tree) {
 	AVLNode* node1, * node2;
 
@@ -155,6 +163,7 @@ AVLNode* AVLRotateLeftRight(AVLNode* tree) {
 	return tree;
 }
 
+// Rotação dupla a esquerda
 AVLNode* AVLRotateRightLeft(AVLNode* tree) {
 	AVLNode* node1, * node2;
 
@@ -181,6 +190,7 @@ AVLNode* AVLRotateRightLeft(AVLNode* tree) {
 	return tree;
 }
 
+// Função que procura um elemento dentro da árvore
 AVLNode* AVLFind(AVLNode* tree, void* data, int (*compareFuntion)(void*, void*))
 {
 	if (tree == NULL) {
@@ -199,6 +209,7 @@ AVLNode* AVLFind(AVLNode* tree, void* data, int (*compareFuntion)(void*, void*))
 	return NULL;
 }
 
+// Função que retorna o n-ésimo elemento da árvore no caminhamento central a esquerda
 AVLNode* AVLNNodeCenteredRight(AVLNode* tree, int n, int* actual) {
 	AVLNode* node = NULL;
 

@@ -1,19 +1,29 @@
 #include "TweetProcessor.h"
 
+// Função que lê todos os tweets
 Stack* readAllTweets(FILE* input) {
+	// Inicializa uma pilha auxiliar
 	Stack* stack = StackInitialize();
+
+	// Aloca espaço para um tweet
 	Tweet* tweet = malloc(sizeof(Tweet));
 
+	// Enquanto or possível ler tweets
 	while (readTweet(input, tweet)) {
+		// Adiciona o tweet a pilha 
 		stack = StackPush(stack, tweet);
+
+		// Aloca espaço para o próximo tweet
 		tweet = malloc(sizeof(Tweet));
 	}
 
 	free(tweet);
 
+	// Retorna a pilha auziliar
 	return stack;
 }
 
+// Função que lê um tweet do arquivo, processa os dados e coloca seus dados na estrutura
 int readTweet(FILE* input, Tweet* tweet)
 {
 	char linha[300], text[240];
@@ -100,6 +110,7 @@ int readTweet(FILE* input, Tweet* tweet)
 	return 0;
 }
 
+// Função que imprime todos os tweets na tela
 void printAll(Stack* tweets)
 {
 	for (Stack* aux = tweets; aux != NULL; aux = aux->top) {
